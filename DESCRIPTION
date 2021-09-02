@@ -1,0 +1,20 @@
+Package: praiseme
+Title: Deliver Praise to Someone
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tasha",
+           family = "Lim",
+           role = c("aut", "cre"),
+           email = "tasha.lim@students.mq.edu.au",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package delivers a little praise whenever you need it.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    glue 
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
